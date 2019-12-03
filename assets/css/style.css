@@ -1,16 +1,76 @@
-/* CSS stylesheet for Courtney Seto's portfolio */
 
-/*
-
-.logo
-
-nav
-
-
-
-
-*/
+* {
+    box-sizing: border-box;
+}
 
 body {
-    background-image: url("assets/images/background.png")
+    background: url("../images/background.png") repeat;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+/* --- header --- */
+header {
+    position: fixed;
+    top: 0;
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+nav li+li {
+    border-left: 1px solid #808080;
+}
+
+/* --- main content area --- */
+
+main {
+    position: relative;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+/* --- about me --- */
+
+/* profile image*/
+#profile {
+    width: 100px;
+}
+
+/* --- footer --- */
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
 }
