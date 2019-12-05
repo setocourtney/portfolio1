@@ -1,4 +1,4 @@
-# setocourtney.github.io
+# setocourtney.github.io/setocourtney-portfolio1
 
 ## Portfolio for Courtney Seto
 
