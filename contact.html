@@ -2,7 +2,7 @@
         <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=, initial-scale=1.0">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
             <title>Courtney Seto</title>
@@ -12,38 +12,33 @@
         </head>
 
         <body>
-            <!--header-->
-            <header>
-                <!--logo-->
-                <div class="logo">
-                    <h1>Courtney Seto</h1>
-                </div>
-                
-                <!--menu toolbar-->
-                <nav>
-                    <!--About | Portfolio | Contact-->
-                    <ul>
-                        <li>
-                            <a href="index.html">About</a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
 
+            <!--header section: logo and menu bar-->
+            <header>
+                    <div class="container">
+                        <!--logo-->
+                        <div class="logo"><h1>Courtney Seto</h1></div>
+                        
+                        <!--menu bar-->
+                        <nav>
+                            <!--About | Portfolio | Contact-->
+                            <ul>
+                                <li><a href="index.html">About</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+            </header>
+            
             <!--about me-->
             <main>
-                <h1>Contact</h1>
-                
-                <!--horizontal line-->
-                <hr>    
-                            
-                <section>
+                 <!--content title-->
+                 <div class="section-header">
+                    <h1>Contact</h1>
+                </div>
+       
+                <section class="clearfix">
                     <!--send responses to courtneyjseto@gmail.com--> 
                    <form action="mailto:courtneyjseto@gmail.com" method="POST" enctype="text/plain">
                         <!--name input-->
@@ -64,11 +59,7 @@
                 </section>
             </main>
 
-            <footer>
-                <!--accent bar-->
-                <div class="footer-top"></div>
-                <div class="footer-bottom"></div>
-            </footer>
-
+            <!--footer-->
+            <div class="footer"></div>
         </body>
     </html>
