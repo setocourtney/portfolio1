@@ -31,7 +31,8 @@ header {
     top: 0;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
-    width: 100%
+    width: 100%;
+    z-index: 99;
 }
 .container {
     width: 960px;
